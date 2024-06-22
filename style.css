@@ -1,0 +1,116 @@
+*{
+    font-family: 'Orbitron', sans-serif;
+}
+body{
+    background-color: #818181;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#calculator {
+    height: 420px;
+    width: 300px;
+    background-color: #dfd8d0;
+    border: 2px solid #908b85;
+    border-radius: 20px;
+    box-shadow: 7px 10px 34px 1px rgba(0, 0, 0, 0.68), inset -1px -6px 12px 0.1px #89847e;
+}
+  
+  #title {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+  }
+  
+  #display {
+    width: 85%;
+    height: 14%;
+    margin: 0 auto 0 auto;
+    border: 2px solid #b4b39d;
+    border-radius: 6px;
+    background-color: #c3c2ab;
+    text-align: right;
+    position: relative;
+  }
+  
+  #display-main {
+    margin-right: 10px;
+    font-size: 35px;
+  }
+  #answer{
+    margin: 0;
+  }
+  #buttons {
+    color: #fff;
+    font-size: 16px;
+    height: auto;
+    font-weight: bold;
+    margin-left: 18px;
+    margin-top: 15px;
+    position: relative;
+  }
+  
+  button {
+    border: none;
+    background-color: #3a3a3a;
+    color: white;
+    height: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px 0px #222121;
+    font-weight: bold;
+    width: 50px;
+    margin: 0 4px 10px 8px;
+  }
+  
+  button:active {
+    transform: translate(0px, 4px);
+    box-shadow: none;
+  }
+    
+  #equalButton {
+    position: absolute;
+    margin-left: 12px;
+    top: 150px;
+    right: 20px;
+    height: 90px;
+  }
+  
+  #zeroButton {
+    width: 117px;
+  }
+  
+  .red {
+    box-shadow: 0px 3px 0px 0px #671c2a;
+    font-size: 1em;
+    background-color: #a72d45;
+  }
+  
+  
+  button,
+  button:visited,
+  button:active,
+  button:hover{
+    text-decoration: none
+  }
+  
+  
+  #history {
+    position: absolute;
+    height: 14px;
+    bottom: 17px;
+    right: 0px;
+    margin-right: 14px;
+    color: #8b8b7b;
+    font-size: 12px;
+  }
+
+  h4{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(53, 53, 53);
+    
+  }
